@@ -282,8 +282,8 @@ app.get("/", async (req, res) => {
         })
     }
         else {
-            res.send("EEEEERRRRRRRRRRRRRRRRRRRRRRRRROOOOOOOOOOOOOORRRRRRRRRRRRRrrrr/sign/in");
-            // res.redirect("/sign/in");
+            // res.send("EEEEERRRRRRRRRRRRRRRRRRRRRRRRROOOOOOOOOOOOOORRRRRRRRRRRRRrrrr/sign/in");
+            res.redirect("/sign/in");
         }
     
 })
